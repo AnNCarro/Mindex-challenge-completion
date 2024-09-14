@@ -1,6 +1,7 @@
 package com.mindex.challenge.config;
 
 import com.mindex.challenge.dao.EmployeeRepository;
+import com.mindex.challenge.dao.CompensationRepository;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import de.bwaldvogel.mongo.MongoServer;

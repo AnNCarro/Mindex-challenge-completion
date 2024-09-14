@@ -44,7 +44,9 @@ public class EmployeeController {
     I placed this in here as it doesn't make sense for me for ReportingStructure to have its own file
     ReportingStructure has only one functionality and that is tied entirely to employee.
     I understand the purpose for this test, but in my opinion
-    directReports should be a functionality added to the Employee class
+    directReports should be a functionality added to the Employee class.
+    As for the logic of getting the NumberOfReports, due to the limitations of the json database,
+    and me not wanting to perpetuate employee service logic into the object class, I placed it here as well
      */
     @GetMapping("/employee/{id}/reports")
     public ReportingStructure directReports(@PathVariable String id) {
